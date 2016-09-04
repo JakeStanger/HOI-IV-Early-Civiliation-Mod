@@ -6,6 +6,8 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	dual_kings
+	strong_military
 }
 
 set_technology = {
@@ -94,7 +96,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 96
 		}
 
 		communism = {
@@ -102,14 +104,14 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 98
+			popularity = 2
 		}
 	}
 
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1935.6.9"
 	election_frequency = 12
-	elections_allowed = yes # none after offset 1
+	elections_allowed = no # none after offset 1
 }
 set_national_unity = 0.9
 
@@ -118,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "demaratus.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = nazism
 	traits = {
 		#
 	}
@@ -151,7 +153,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
